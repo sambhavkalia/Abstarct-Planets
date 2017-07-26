@@ -19,7 +19,6 @@ namespace Abstarct_Planets
         // PUBLIC PROPERTIES
         public bool HasMoons()
         {
-            bool moon;
             if (MoonCount > 0)
             {
                 return true;

@@ -7,7 +7,7 @@ using System.Text;
  * Name: Sambhav Kalia
  * Date: July 25, 2017
  * Description: This is the sub-class GiantPlanet of class Planet
- * Version: 0.1 
+ * Version: 0.2 fix if loops
  */
 
 namespace Abstarct_Planets
@@ -19,29 +19,19 @@ namespace Abstarct_Planets
         // PUBLIC PROPERTIES
         public bool HasMoons()
         {
-            bool moon;
             if (MoonCount > 0)
             {
-                moon = true;
+                return true;
             }
-            else
-            {
-                moon = false;
-            }
-            return moon;
+            return false;
         }
-            public bool HasRings()
+        public bool HasRings()
         {
-            bool ring;
             if (RingCount>0)
             {
-                ring = true;
+                return true;
             }
-            else
-            {
-                ring = false;
-            }
-            return ring;
+                return false;
         }
 
         // CONSTRUCTORS
