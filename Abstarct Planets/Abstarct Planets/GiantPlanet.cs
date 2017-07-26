@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 
 /*
+ * Github: https://github.com/sambhavkalia/Abstarct-Planets 
  * Name: Sambhav Kalia
+ * Student ID: 300900171
  * Date: July 25, 2017
  * Description: This is the sub-class GiantPlanet of class Planet
  * Version: 0.2 fix if loops

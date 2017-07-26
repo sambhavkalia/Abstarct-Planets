@@ -4,6 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Github: https://github.com/sambhavkalia/Abstarct-Planets 
+ * Name: Sambhav Kalia
+ * Student ID: 300900171
+ * Date: July 25, 2017
+ * Description: This is the Main Program
+ * Version: 0.1
+ */
+
 namespace Abstarct_Planets
 {
     class Program
