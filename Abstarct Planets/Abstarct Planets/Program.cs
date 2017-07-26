@@ -11,7 +11,7 @@ namespace Abstarct_Planets
         static void Main(string[] args)
         {
             //driver class for program, which creats a new object and  call its ToString() method
-            GiantPlanet giantPlanet = new GiantPlanet("Venus",12104,0.815,"Co2");
+            GiantPlanet giantPlanet = new GiantPlanet("Venus",12104, 4.867, "Gas");
             TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth", 12.742, 5.972, true);
             giantPlanet.ToString();
             terrestrialPlanet.ToString();

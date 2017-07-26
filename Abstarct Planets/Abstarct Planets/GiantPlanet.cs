@@ -12,7 +12,7 @@ using System.Text;
 
 namespace Abstarct_Planets
 {
-    class GiantPlanet: Planet
+    class GiantPlanet: Planet,IHasMoons,IHasRings
     {
         // PRIVATE INSTANCE VARIABLES
         private string _type;

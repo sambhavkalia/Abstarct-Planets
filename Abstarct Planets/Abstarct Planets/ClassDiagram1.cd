@@ -7,6 +7,7 @@
       <FileName>GiantPlanet.cs</FileName>
       <NewMemberFileName>Planet.cs</NewMemberFileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Abstarct_Planets.TerrestrialPlanet">
     <Position X="3.25" Y="0.5" Width="1.5" />

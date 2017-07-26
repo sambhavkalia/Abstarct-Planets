@@ -7,7 +7,7 @@ using System.Text;
  * Name: Sambhav Kalia
  * Date: July 25, 2017
  * Description: This is the Planet Abstract Class
- * Version: 0.1 
+ * Version: 0.2 - fix output return added string pinfo to get return
  */
 
 namespace Abstarct_Planets
@@ -29,14 +29,14 @@ namespace Abstarct_Planets
         {
             get
             {
-                return this._diameter;
+                return _diameter;
             }
         }
         public double Mass
         {
             get
             {
-                return this._mass;
+                return _mass;
             }
         }
         public int MoonCount
@@ -54,7 +54,7 @@ namespace Abstarct_Planets
         {
             get
             {
-                return this._name;
+                return _name;
             }
         }
         public double OrbitalPeriod
@@ -100,7 +100,9 @@ namespace Abstarct_Planets
         }
         public override string ToString()
         {
-            return this.Name +" has the diameter of " + this.Diameter + " kilometer and has mass of " + this.Mass + " tonnes.";
+            string pInfo = this.Name + " has the diameter of " + this.Diameter + " kilometer and has mass of " + this.Mass + " x 10^24 kilograms.";
+            Console.WriteLine(pInfo);
+            return pInfo;
         }
         // PRIVATE METHODS
 
