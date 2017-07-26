@@ -7,12 +7,12 @@ using System.Text;
  * Name: Sambhav Kalia
  * Date: July 25, 2017
  * Description: This is the sub-class TerrestrialPlanet of class Planet
- * Version: 0.1 
+ * Version: 0.2 
  */
 
 namespace Abstarct_Planets
 {
-    class TerrestrialPlanet: Planet
+    class TerrestrialPlanet: Planet,IHasMoons,IHabitable
     {
         // PRIVATE INSTANCE VARIABLES
         private bool _oxygen;
@@ -22,28 +22,23 @@ namespace Abstarct_Planets
             bool moon;
             if (MoonCount > 0)
             {
-                moon = true;
+                return true;
             }
-            else
-            {
-                moon = false;
-            }
-            return moon;
+                return false;
         }
         public bool Habitable()
         {
-            bool oxygen;
-            if (oxygen = true)
+            if (this._oxygen == true)
             {
-                return oxygen;
+                return true;
             }
-            return oxygen;
+            return false;
         }
-        
+
         // CONSTRUCTORS
-        public TerrestrialPlanet(string name, double diameter, double mass) : base(name, diameter, mass)
+        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
         {
-            this._oxygen = _oxygen;
+            oxygen = this._oxygen;
         }
 
     }
