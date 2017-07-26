@@ -8,5 +8,12 @@
       <NewMemberFileName>Planet.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Abstarct_Planets.TerrestrialPlanet">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerrestrialPlanet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
