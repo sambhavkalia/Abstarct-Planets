@@ -17,7 +17,7 @@ namespace Abstarct_Planets
         // PRIVATE INSTANCE VARIABLES
         private bool _oxygen;
         // PUBLIC PROPERTIES
-        public bool HasMoon()
+        public bool HasMoons()
         {
             bool moon;
             if (MoonCount > 0)
