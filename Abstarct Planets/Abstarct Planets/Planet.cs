@@ -7,7 +7,7 @@ using System.Text;
  * Github: https://github.com/sambhavkalia/Abstarct-Planets 
  * Name: Sambhav Kalia
  * Student ID: 300900171
- * Date: July 25, 2017
+ * Date: July 27, 2017
  * Description: This is the Planet Abstract Class
  * Version: 0.3 - updated output structure
  */
