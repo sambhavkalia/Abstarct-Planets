@@ -37,7 +37,7 @@ namespace Abstarct_Planets
             Console.WriteLine("|                                                        |");
             Console.WriteLine("|               Know About The Planets                   |");
             Console.WriteLine("==========================================================");
-            Console.Write(" Enter the number of select Planet -> ");
+            Console.Write(" Enter the number to select Planet -> ");
         }
         static void ShowMenu()
         {
