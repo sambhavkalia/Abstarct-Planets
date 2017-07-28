@@ -9,7 +9,7 @@ using System.Text;
  * Student ID: 300900171
  * Date: July 25, 2017
  * Description: This is the Planet Abstract Class
- * Version: 0.2 - fix output return added string pinfo to get return
+ * Version: 0.3 - updated output structure
  */
 
 namespace Abstarct_Planets
@@ -102,7 +102,7 @@ namespace Abstarct_Planets
         }
         public override string ToString()
         {
-            string pInfo = this.Name + " has the diameter of " + this.Diameter + " kilometer and has mass of " + this.Mass + " x 10^24 kilograms.";
+            string pInfo = "Planet =" + this.Name + " \nDiameter =" + this.Diameter + " kilometer \nMass =" + this.Mass + " x 10^24 kilograms.";
             Console.WriteLine(pInfo);
             return pInfo;
         }

@@ -9,7 +9,7 @@ using System.Text;
  * Student ID: 300900171
  * Date: July 25, 2017
  * Description: This is the sub-class GiantPlanet of class Planet
- * Version: 0.2 fix if loops
+ * Version: 0.3 fix if loops
  */
 
 namespace Abstarct_Planets
@@ -18,22 +18,29 @@ namespace Abstarct_Planets
     {
         // PRIVATE INSTANCE VARIABLES
         private string _type;
+
         // PUBLIC PROPERTIES
         public bool HasMoons()
         {
-            if (MoonCount > 0)
+            bool moons = false;
+
+           if (MoonCount >  0)
             {
-                return true;
+                moons = true;
             }
-            return false;
+            
+            return moons;
         }
         public bool HasRings()
         {
-            if (RingCount>0)
+            bool rings = false;
+
+            if (MoonCount > 0)
             {
-                return true;
+                rings = true;
             }
-                return false;
+
+            return rings;
         }
 
         // CONSTRUCTORS

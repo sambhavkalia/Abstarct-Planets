@@ -9,7 +9,7 @@ using System.Text;
  * Student ID: 300900171
  * Date: July 25, 2017
  * Description: This is the sub-class TerrestrialPlanet of class Planet
- * Version: 0.2 
+ * Version: 0.3 Fix loops
  */
 
 namespace Abstarct_Planets
@@ -21,11 +21,14 @@ namespace Abstarct_Planets
         // PUBLIC PROPERTIES
         public bool HasMoons()
         {
+            bool moons = false;
+
             if (MoonCount > 0)
             {
-                return true;
+                moons = true;
             }
-                return false;
+
+            return moons;
         }
         public bool Habitable()
         {
@@ -35,11 +38,10 @@ namespace Abstarct_Planets
             }
             return false;
         }
-
         // CONSTRUCTORS
         public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
         {
-            oxygen = this._oxygen;
+            _oxygen = oxygen;
         }
 
     }
